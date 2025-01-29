@@ -47,4 +47,19 @@ do {responses++
     console.log(`Number of Responses: ${responses}`)} // Logging each Response Count
 while (responses<3);
 
+// Task 5 
+
+// Declaring Employee Object
+let employee = {
+    name: "Alice",
+    position: "Manager",
+    salary: 75000
+};
+
+// Use For In Loop
+for(let x in employee)
+
+// Logging Property and Value
+{console.log(`${x}: ${employee[x]}`)};
+
 
