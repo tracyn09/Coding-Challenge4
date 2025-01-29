@@ -84,3 +84,14 @@ orders.forEach(function(orders)
 // Logging Order ID
 {console.log(`Order ID: ${orders}`)});
 
+// Task 8 
+
+// Write calculateTax Function
+let calculateTax= function(amount, taxrate)
+{tax= amount * (taxrate/100);
+
+// Logging Results
+console.log(`Total Tax is $${tax}`)
+return tax} // Returning Calculated Tax
+calculateTax(109.83,7) // Implementing Amount and Tax Rate
+
