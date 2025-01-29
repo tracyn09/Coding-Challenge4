@@ -73,4 +73,14 @@ for (let x of products)
 // Logging Product names
 {console.log(`Product: ${x}`)};
 
+// Task 7 
+
+// Declaring Orders Array
+let orders = [213,258,239]
+
+// Use forEach()
+orders.forEach(function(orders)
+
+// Logging Order ID
+{console.log(`Order ID: ${orders}`)});
 
