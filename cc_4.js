@@ -36,3 +36,15 @@ while(stock>0)
 
 // Logging Decrements
 console.log(`Stock Value after Decrease: ${stock}`)}
+
+// Task 4
+
+// Declaring Responses with Initial Value 0
+var responses = 0
+
+// While Loop until Responses reaches 3
+do {responses++
+    console.log(`Number of Responses: ${responses}`)} // Logging each Response Count
+while (responses<3);
+
+
