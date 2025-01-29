@@ -95,3 +95,14 @@ console.log(`Total Tax is $${tax}`)
 return tax} // Returning Calculated Tax
 calculateTax(109.83,7) // Implementing Amount and Tax Rate
 
+// Task 9 
+
+// Declaring applyDiscount Function Expression
+let applyDiscount = function(price, discountPercent)
+{discount = price *(discountPercent/100)
+
+// Logging Resilts
+console.log(`Disocunt Amount: ${discount}`)
+return discount} // Returning Discount
+applyDiscount(12.99, 20) // Implementing Price and Discount Percent
+
