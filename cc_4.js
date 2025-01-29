@@ -62,4 +62,15 @@ for(let x in employee)
 // Logging Property and Value
 {console.log(`${x}: ${employee[x]}`)};
 
+// Task 6 
+
+// Declaring Products Array
+let products = ["MacBook", "Apple Pencil", "iPad"]
+
+// Use For Of Loop
+for (let x of products)
+
+// Logging Product names
+{console.log(`Product: ${x}`)};
+
 
