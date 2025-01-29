@@ -106,3 +106,13 @@ console.log(`Disocunt Amount: ${discount}`)
 return discount} // Returning Discount
 applyDiscount(12.99, 20) // Implementing Price and Discount Percent
 
+// Task 10 
+
+// calculatePoints Arrow Function
+calculatePoints = (purchaseAmount) => {
+    points = purchaseAmount / 10};
+
+// Logging Resilts
+{calculatePoints(150) // Implementing purchaseAmount
+console.log(`You earned ${points} points from your purchase!`)};
+
