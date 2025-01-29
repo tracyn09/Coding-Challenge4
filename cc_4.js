@@ -24,3 +24,15 @@ for(let x=0; x<sales.length; x++)
 
 // Update Total Sales
 console.log(`Total Sales: ${sum}`);
+
+// Task 3 
+
+// Declaring Stock with Initial Value 10
+var stock = 10
+
+// While Loop to Decrease Stock to 0
+while(stock>0) 
+{stock--;
+
+// Logging Decrements
+console.log(`Stock Value after Decrease: ${stock}`)}
